@@ -83,6 +83,4 @@ production:
   <<: *default
   database: feed_tracker_react_production
   username: feed_tracker_react
-  password: <%= ENV['FOOOO_DATABASE_PASSWORD'] %>
-
-
+  password: <%= ENV['FEED_TRACKER_REACT_DATABASE_PASSWORD'] %>
