@@ -9,7 +9,7 @@ class Body extends React.Component {
   }
 
   handleFormSubmit(){
-    fetch('http://localhost:3000/api/v1/feeds', {
+    fetch('/api/v1/feeds', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' }
     }).then((response) => {return response.json()})
